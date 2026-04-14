@@ -1,0 +1,17 @@
+# Canonical host: force non-www and HTTPS
+http://www.emadetailingdistrict.com/* https://emadetailingdistrict.com/:splat 301!
+https://www.emadetailingdistrict.com/* https://emadetailingdistrict.com/:splat 301!
+http://emadetailingdistrict.com/* https://emadetailingdistrict.com/:splat 301!
+
+# Legacy WordPress/Yoast sitemap endpoints -> new canonical sitemap
+/sitemap_index.xml /sitemap.xml 301
+/page-sitemap.xml /sitemap.xml 301
+/cpt_services-sitemap.xml /sitemap.xml 301
+/cpt_services_group-sitemap.xml /sitemap.xml 301
+/cpt_layouts-sitemap.xml /sitemap.xml 301
+/cpt_layouts_group-sitemap.xml /sitemap.xml 301
+/wp-sitemap.xml /sitemap.xml 301
+
+# Legacy service slugs -> canonical service URLs
+/services/lavaggio-3ph/ /services/lavaggio-decontaminante-3ph-carmagnola/ 301
+/services/econtaminazione-carrozzeria/ /services/decontaminazione-carrozzeria-carmagnola/ 301
