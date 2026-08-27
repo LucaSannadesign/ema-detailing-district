@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://ema-detailing-district.netlify.app/sitemap.xml
+Sitemap: https://emadetailingdistrict.com/sitemap.xml
