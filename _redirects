@@ -1,8 +1,7 @@
-# Canonical host: Netlify demo URL
-http://www.emadetailingdistrict.com/* https://ema-detailing-district.netlify.app/:splat 301!
-https://www.emadetailingdistrict.com/* https://ema-detailing-district.netlify.app/:splat 301!
-http://emadetailingdistrict.com/* https://ema-detailing-district.netlify.app/:splat 301!
-https://emadetailingdistrict.com/* https://ema-detailing-district.netlify.app/:splat 301!
+# Canonical host: force non-www and HTTPS
+http://www.emadetailingdistrict.com/* https://emadetailingdistrict.com/:splat 301!
+https://www.emadetailingdistrict.com/* https://emadetailingdistrict.com/:splat 301!
+http://emadetailingdistrict.com/* https://emadetailingdistrict.com/:splat 301!
 
 # Legacy WordPress/Yoast sitemap endpoints -> new canonical sitemap
 /sitemap_index.xml /sitemap.xml 301
